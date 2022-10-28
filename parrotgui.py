@@ -1,6 +1,11 @@
-import tkinter
-'''
-Intentaré hacer una interfaz donde meter tus propias imágenes en ASCII
-y que puedas animarlas tú
-'''
-print('\x1b[6;30;42m' + 'SI' + '\x1b[0m')
+import argparse
+
+parser = argparse.ArgumentParser(description='Literraly just a CLI ASCII animator')
+parser.add_argument('-f', '--folder',
+                    required=False)
+parser.add_argument('-c', '--color',
+                    required=False, action='store_true')
+args = parser.parse_args()
+
+
+print('folder:'+ args.folder+' color: ', args.color)
