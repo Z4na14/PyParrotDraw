@@ -266,4 +266,4 @@ while True:
             print('\x1b[{color}m'.format(color = animate.colores[color]) + animate.frames[a] + '\x1b[0m')
             color += 1
 
-        sleep(0.07)
+        sleep(0.05)

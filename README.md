@@ -1,5 +1,5 @@
 # PyParrot Draw
-![parrot](https://c.tenor.com/jqv9q8ho5BEAAAAC/hydranoid-bird-dance.gif)
+![parrot](./parrot.gif)
 #### This is just a python script / libary _(I'm working on it)_ to animate ASCII images into de console
 [Download](https://github.com/Z4na14/PyParrotDraw/tags) | [Code](https://github.com/Z4na14/PyParrotDraw/blob/main/main.py)
 
@@ -22,17 +22,15 @@ program with GUI interface for ease of usage:
 If python is installed / using linux:
 
 ```
-# * indicates what values need introduced
-python main.py -*option *folder 
+# -f is the folder where the images are located (optional, parrot is predefined)
+# -c is used to indicate multicolor animation (also optional)
+python main.py -f *folder -c 
 ```
 
 Or if executed from Windows, compiled .exe is bundled inside the downloads page:
 
 ```
-# * indicates what values need introduced
-main.exe -*option *folder
+# -f is the folder where the images are located (optional, parrot is predefined)
+# -c is used to indicate multicolor animation (also optional)
+main.exe -f *folder -c
 ```
-
-The only option available is ``-color`` for the rainbowed parrot.
-
-If no folder is introduced, a parrot will be displayed inside de terminal.
