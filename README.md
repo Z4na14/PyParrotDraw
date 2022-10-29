@@ -32,5 +32,5 @@ Or if executed from Windows, compiled .exe is bundled inside the downloads page:
 ```
 # -f is the folder where the images are located (optional, parrot is predefined)
 # -c is used to indicate multicolor animation (also optional)
-main.exe -f *folder -c
+parrot.exe -f *folder -c
 ```
